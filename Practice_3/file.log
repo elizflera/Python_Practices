@@ -1,0 +1,7 @@
+Class name: <class 'FileNotFoundError'>
+Error message: [Errno 2] No such file or directory: 'local.html'
+Traceback:
+  File "C:\Users\eliza\PycharmProjects\Python_Practices\Practice_3\ex6.py", line 28, in run_with_log
+    func()
+  File "C:\Users\eliza\PycharmProjects\Python_Practices\Practice_3\ex6.py", line 9, in trouble_2
+    file = open('local.html', 'r')

@@ -2,7 +2,7 @@ def factorial(n):
     """
       Вернуть факториал n, целого числа >= 0
    >>> factorial(5)
-   121
+   120
    >>> [factorial(n) for n in range(6)]
    [1, 1, 2, 6, 24, 120]
    >>> factorial(30)
@@ -41,5 +41,5 @@ def factorial(n):
 if __name__ == "__main__":
     import doctest
 
-    doctest.testmod()
-    # doctest.testfile('example.txt')
+    # doctest.testmod()
+    doctest.testfile('example.txt')
